@@ -1,26 +1,45 @@
-## Plataforma Aventura
+# Plataforma Aventura
 
-Python, PGZero
+Um jogo de plataforma 2D desenvolvido em **Python** utilizando a biblioteca **PGZero**.
 
-Use as setas esquerda e direita para mover o personagem.
+## 🎮 Sobre o jogo
 
-Pressione espaço para pular.
+Controle o personagem por uma fase repleta de desafios: colete todas as moedas para vencer, enquanto desvia de inimigos que podem colocar um fim rápido à sua jornada.
 
-Colete todas as moedas para vencer.
+## 🕹️ Como jogar
 
-Evite os inimigos (serras e ratos). Se tocar neles, o jogo termina.
+- **Setas esquerda/direita**: mover o personagem
+- **Espaço**: pular
+- **Objetivo**: coletar todas as moedas do cenário
+- **Cuidado**: evite tocar nos inimigos (serras e ratos) — o contato encerra o jogo imediatamente
 
-Funcionalidades 
+## ✨ Funcionalidades
 
-Animações para inimigos (serras e ratos).
+- Animações para os inimigos (serras e ratos)
+- Detecção de colisão com moedas, plataformas e inimigos
+- Efeitos sonoros de pulo, coleta de moedas, derrota e vitória
+- Interface de início com botões **Começar** e **Sair**
+- Controle de som (mudo/desmudo)
+- Verificação de vitória e derrota, com telas especiais para cada resultado
 
-Detecção de colisão com moedas, plataformas e inimigos.
+## 🛠️ Tecnologias utilizadas
 
-Efeitos sonoros de clique, pulo, coleta de moedas, derrota e vitória.
+- [Python](https://www.python.org/)
+- [PGZero](https://pygame-zero.readthedocs.io/)
 
-Interface de início com botão Começar e Sair.
+## ▶️ Como executar
 
-Controle de som (mudo/desmudo).
+1. Certifique-se de ter o Python instalado.
+2. Instale o PGZero:
+   ```bash
+   pip install pgzero
+   ```
+3. Execute o jogo com o comando:
+   ```bash
+   pgzrun nome_do_arquivo.py
+   ```
 
-Verificação de vitória e derrota com telas especiais.
+## 🏆 Condições de fim de jogo
 
+- **Vitória**: todas as moedas foram coletadas
+- **Derrota**: o personagem tocou em um inimigo (serra ou rato)
